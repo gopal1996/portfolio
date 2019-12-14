@@ -1,0 +1,34 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    //  This defines what 1rem is
+    font-size: 62.5%; // 10/16px = 62.5px
+
+    @include respond(tab-land) {
+        font-size: 56.25%; // 1rem = 9px
+    }
+    
+    @include respond(tab-port) {
+        font-size: 50%; // 1rem = 8px
+    }
+
+    @include respond(big-desktop) {
+        font-size: 75%; // 1rem = 12px
+    }
+}
+
+body {
+    box-sizing: border-box;
+    background-image: linear-gradient(180deg,#ff0060 0,#ff6975);
+    background-repeat: repeat-x;
+}
+
+.row {
+    background-color: #fff;
+}

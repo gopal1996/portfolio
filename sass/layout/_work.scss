@@ -1,0 +1,23 @@
+.work {
+    padding: 15rem 0;
+    
+    &__content {
+        padding: 5rem;
+    }
+
+    &__duration {
+        font-size: 1.6rem;
+    }
+
+    &__role {
+        font-size: 4rem;
+    }
+
+    &__company {
+        font-size: 3rem;
+    }
+
+    &__description {
+        font-size: 2rem;
+    }
+}

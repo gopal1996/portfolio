@@ -1,0 +1,31 @@
+.skills {
+    padding: 15rem 0;
+    font-size: 2.5rem;
+
+    &__content {
+        padding: 5rem;
+    }
+
+    &__items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+    }
+
+    &__item {
+        margin: 1rem 2rem;
+    }
+
+    &__link {
+        
+    }
+
+    a {
+        text-decoration: none;
+        color:#525151;
+        font-weight: 700;
+        border-bottom: 3px solid #000;
+    }
+}

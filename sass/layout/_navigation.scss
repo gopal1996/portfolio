@@ -1,0 +1,21 @@
+.navbar {
+
+    &-brand {
+        display: flex;
+        align-items: center;
+    }
+    
+    .nav-item {
+        font-size: 2.2rem;
+        padding-left: 2rem;
+        
+        .nav-link {
+            color: #fff;
+        }
+    }
+}
+
+.nav__logo {
+    border-radius: 50%;
+    margin-right: 2rem;
+}

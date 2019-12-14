@@ -1,0 +1,36 @@
+.about {
+    margin: 10rem 0;
+    
+    &__content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @include respond(phone) {
+            flex-direction: column;
+        }
+
+        &-img {
+            flex: 30% 0 0;
+            padding: 10rem 5rem;
+            @include respond(phone) {
+                padding-left: 1rem;
+                padding-right: 1rem;
+            }
+        }
+
+        &-desc {
+            padding: 10rem 5rem;
+            @include respond(phone) {
+                padding-left: 1rem;
+                padding-right: 1rem;
+            }
+            h2 {
+                font-size: 5rem;
+            }
+
+            p {
+                font-size: 2rem;
+            }
+        }
+    }
+}

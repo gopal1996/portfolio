@@ -1,0 +1,33 @@
+.education {
+    padding: 10rem 0;
+
+    &__parent {
+        padding: 10rem 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-grow: 1;
+        font-size: 1.6rem;
+        @include respond(phone) {
+            flex-direction: column;
+        }
+    }
+
+    &__content {
+        flex: 33.333% 0 0;
+    }
+
+    &__dept {
+        font-size: 3rem;
+        font-weight: 700;
+    }
+
+    &__school {
+        font-size: 2rem;
+    }
+
+    &__period {
+        font-size: 1.4rem;
+        font-weight: 100;
+    }
+}
